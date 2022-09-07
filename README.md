@@ -1,13 +1,6 @@
 # Build a Simple Guessing Game
 
-## This challenge will help you to:
-- Break down problems into implementable pseudocode
-- Implement a basic Python class and identify when to use instance variables
-- Use flow control and iteration where appropriate
-- Explain how instance variables and methods represent the characteristics and actions of an object
-
-## Summary
-Let's create a simple guessing game. Think in terms of when you were 7 and asked your friends to identify the number you were thinking.
+Let's create a simple guessing game.
 
 Your `GuessingGame` class should be initialized with an integer called something like `answer` or `answer_number`.
 
@@ -41,7 +34,7 @@ import random
 # Define your GuessingGame class here...
 
 
-# ----- DRIVER CODE -----
+# ----- main.py -----
 game = GuessingGame(random.randint(1,100))
 last_guess  = None
 last_result = None
